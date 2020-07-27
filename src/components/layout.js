@@ -2,6 +2,7 @@ import React from "react"
 import {keyframes} from '@emotion/core'
 import styled from "@emotion/styled"
 import '../css/reset.css'
+import '../css/fonts.css'
 import {useStaticQuery, graphql} from "gatsby"
 import Image from "gatsby-image"
 import facepaint from 'facepaint'
@@ -24,13 +25,13 @@ const Content = styled.div({
   paddingRight: ['20px', '40px']
 }))
 
-const Name = styled.h2({fontFamily: 'Roboto Condensed', marginTop: 0, marginBottom: 4, letterSpacing: 1})
+const Name = styled.h2({fontFamily: "'Roboto Condensed', sans-serif", marginTop: 0, marginBottom: 4, letterSpacing: 1})
 
-const Description = styled.h5({fontFamily: 'Roboto Condensed', marginTop: 0, letterSpacing: 1})
+const Description = styled.h5({fontFamily: "'Roboto Condensed', sans-serif", marginTop: 0, letterSpacing: 1})
 
-const SubHeader = styled.h4({fontFamily: 'Roboto Condensed'})
+const SubHeader = styled.h4({fontFamily: "'Roboto Condensed', sans-serif"})
 
-const Text = styled.p({fontFamily: 'PT Serif', fontWeight: 400, lineHeight: 1.5})
+const Text = styled.p({fontFamily: "'PT Serif', serif", fontWeight: 400, lineHeight: 1.5})
 
 const List = styled.ul({listStyle: 'none', padding: 0, margin: '0 0 0 12px'})
 
@@ -228,8 +229,12 @@ qualities.</Text>
             <MinimalListItem>Heavy metal guitar picker</MinimalListItem>
           </List>
           <SubHeader>Contact</SubHeader>
-          <Text>I can be reached by e-mail at &nbsp;
-            <LinkItem href="mailto:FraserKC@gmail.com">FraserKC@gmail.com</LinkItem>
+          <Text>I can be reached by e-mail at
+            <LinkItem
+              href="mailto:FraserKC@gmail.com"
+              style={{
+              paddingLeft: '0.5ch'
+            }}>FraserKC@gmail.com</LinkItem>
           </Text>
           <footer>
             <Text>Made in
