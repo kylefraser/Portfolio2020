@@ -182,13 +182,13 @@ qualities.</Text>
           <Text>I aim to excel and expect to be challenged.</Text>
           <SubHeader>Experience</SubHeader>
           <List>
-            <ListItem>Robin Powered - Frontend Designer
+            <ListItem><LinkItem href="https://robinpowered.com" target="_blank" stryl>Robin Powered</LinkItem> - Frontend Designer
               <ListText>Planning, development, and management of graphics and user interface
                 design projects. Provide support for products developed for both internal use
                 and for customers.
               </ListText>
             </ListItem>
-            <ListItem>Bonfire Studios - Frontend Web Developer
+            <ListItem><LinkItem href="https://hellobonfire.com" target="_blank">Bonfire Studios</LinkItem> - Frontend Web Developer
               <ListText>Cut up and integrate designs into beautiful responsive code.
                 Proficiency implementing user interfaces (and UI elements), with a keen eye on
                 the larger experience. Collaborate seamlessly with the Bonfire team towards
