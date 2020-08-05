@@ -219,13 +219,13 @@ qualities.</Text>
           <List>
             <MinimalListItem>Outdoor everything enthusiast</MinimalListItem>
             <MinimalListItem>Fish more, worry less</MinimalListItem>
-            <MinimalListItem>Confidence through preparedness</MinimalListItem>
             <MinimalListItem>Salt water paddler</MinimalListItem>
-            <MinimalListItem>One more mile runner</MinimalListItem>
-            <MinimalListItem>Gym going limit breaker</MinimalListItem>
-            <MinimalListItem>Cement Tacoma offroad driver</MinimalListItem>
+            <MinimalListItem>Rain or shine runner</MinimalListItem>
+            <MinimalListItem>Novice eastern game hunter</MinimalListItem>
             <MinimalListItem>Mountains and plains rucker</MinimalListItem>
+            <MinimalListItem>Cement Tacoma offroad driver</MinimalListItem>
             <MinimalListItem>Local community supporter</MinimalListItem>
+            <MinimalListItem>Confidence through preparedness</MinimalListItem>
             <MinimalListItem>Heavy metal guitar picker</MinimalListItem>
           </List>
           <SubHeader>Contact</SubHeader>
